@@ -3,13 +3,27 @@
     "id": "p1",
     "title": "Deep Sleep Affirmation — Calm Mind",
     "description": "Gentle subconscious rewiring during 8 hours of peaceful sleep.",
-    "thumbnail": "https://placehold.co/600x600/1f2937/ffffff?text=Calm+Mind",
-    "sample_url": "https://example.com/sample1.mp3",
+    "thumbnail": "https://placehold.co/600x600/0f172a/ffffff?text=Calm+Mind",
+    "sample_url": "https://cdn.jsdelivr.net/gh/yourusername/assets/sample1.mp3",
     "duration": "08:00:00",
     "tags": ["sleep", "8hr", "calm"],
     "popularity": 108,
     "price": 2.99,
-    "checkout_url": "https://your-dodo-checkout-url",
+    "checkout_url": "https://your-dodo-checkout-url-1",
     "published_at": "2025-12-10T00:00:00Z"
+  },
+  {
+    "id": "p2",
+    "title": "Inner Confidence — Night Affirmations",
+    "description": "Affirmations to strengthen inner confidence as you sleep.",
+    "thumbnail": "https://placehold.co/600x600/1f2937/ffffff?text=Confidence",
+    "sample_url": "https://cdn.jsdelivr.net/gh/yourusername/assets/sample2.mp3",
+    "duration": "08:00:00",
+    "tags": ["sleep", "confidence", "8hr"],
+    "popularity": 85,
+    "price": 2.99,
+    "checkout_url": "https://your-dodo-checkout-url-2",
+    "published_at": "2025-12-09T00:00:00Z"
   }
 ]
+
