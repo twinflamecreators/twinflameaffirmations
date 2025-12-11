@@ -9,7 +9,7 @@
     "tags": ["sleep", "8hr", "calm"],
     "popularity": 108,
     "price": 2.99,
-    "checkout_url": "https://your-dodo-checkout-url-1",
+    "checkout_url": "https://test.checkout.dodopayments.com/buy/pdt_d0M4YGPYGx8f7QsLWM91A?quantity=1",
     "published_at": "2025-12-10T00:00:00Z"
   },
   {
@@ -26,5 +26,6 @@
     "published_at": "2025-12-09T00:00:00Z"
   }
 ]
+
 
 
