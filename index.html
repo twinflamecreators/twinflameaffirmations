@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Twin Flame Affirmations — Sleep Transformation Store</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body class="bg-[#0a0f1f] text-white font-inter">
+
+<!-- ========= HERO ========= -->
+<section class="relative overflow-hidden">
+  
+  <!-- Background gradient + animated flame glow -->
+  <div class="absolute inset-0 bg-gradient-to-b from-[#0d1429] to-[#0a0f1f]"></div>
+  <div class="absolute inset-0 opacity-60 flame-glow"></div>
+
+  <div class="relative max-w-6xl mx-auto px-6 pt-20 pb-32">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+
+      <!-- TEXT -->
+      <div>
+        <h1 class="text-4xl md:text-5xl font-playfair font-semibold leading-tight">
+          Sleep Into a Better You
+        </h1>
+
+        <p class="mt-4 text-lg text-slate-300 leading-relaxed">
+          8-hour affirmation journeys designed for deep rest and effortless subconscious transformation.
+        </p>
+
+        <div class="mt-8 flex flex-col sm:flex-row gap-4">
+          <a href="#sample" class="px-6 py-3 bg-[#4fd1c5] text-black font-semibold rounded-lg shadow-lg hover:bg-[#65e6d6] transition">
+            ▶ Listen 2-min Sample
+          </a>
+          <a id="hero-buy-btn" href="#" target="_blank"
+             class="px-6 py-3 border border-[#4fd1c5] text-[#4fd1c5] rounded-lg font-semibold hover:bg-[#163b3a] transition">
+            Buy Full 8-Hour Track — $2.99
+          </a>
+        </div>
+      </div>
+
+      <!-- RIGHT PANEL GLOW -->
+      <div class="relative h-72 md:h-full flex items-center justify-center">
+        <div class="w-72 h-72 rounded-full flame-orb"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ========= SAMPLE AUDIO BLOCK ========= -->
+<section id="sample" class="max-w-4xl mx-auto px-6 py-20">
+  <h2 class="text-3xl font-playfair font-semibold">Preview the Energy</h2>
+  <p class="text-slate-300 mt-2">A calming taste of the full 8-hour journey.</p>
+
+  <div class="mt-6 bg-[#0e162e] p-6 rounded-xl shadow-lg">
+    <audio id="sample-player" controls class="w-full">
+      <source id="sample-src" src="" type="audio/mpeg"/>
+      Your browser does not support audio.
+    </audio>
+  </div>
+</section>
+
+
+<!-- ========= SEARCH + FILTERS ========= -->
+<section class="max-w-6xl mx-auto px-6">
+  <div class="flex flex-col md:flex-row justify-between items-center gap-4 mb-6">
+    
+    <input id="search-box" placeholder="Search affirmations..."
+           class="flex-1 px-4 py-3 bg-[#0e162e] border border-slate-700 rounded-lg focus:outline-none"/>
+
+    <select id="sort-select"
+            class="px-4 py-3 bg-[#0e162e] border border-slate-700 rounded-lg text-slate-300">
+      <option value="pop">Most Popular</option>
+      <option value="new">Newest</option>
+      <option value="az">A → Z</option>
+    </select>
+
+  </div>
+</section>
+
+
+<!-- ========= PRODUCT GRID ========= -->
+<section class="max-w-6xl mx-auto px-6 pb-24">
+  <div id="product-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+</section>
+
+
+<!-- ========= TESTIMONIALS ========= -->
+<section class="bg-[#0d1429] py-20">
+  <div class="max-w-5xl mx-auto px-6">
+    <h2 class="text-3xl font-playfair font-semibold text-center">What Listeners Say</h2>
+
+    <div class="grid md:grid-cols-3 gap-10 mt-12 text-slate-300">
+      <div class="bg-[#0e162e] p-6 rounded-xl">
+        “Fell asleep in minutes. Woke up feeling surprisingly lighter.”
+        <div class="mt-3 text-slate-400 text-sm">— Maya</div>
+      </div>
+      <div class="bg-[#0e162e] p-6 rounded-xl">
+        “I’ve tried many sleep tracks. These affirmations actually shift something.”
+        <div class="mt-3 text-slate-400 text-sm">— Daniel</div>
+      </div>
+      <div class="bg-[#0e162e] p-6 rounded-xl">
+        “Listening for a week changed my mornings completely.”
+        <div class="mt-3 text-slate-400 text-sm">— Aria</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ========= FAQ ========= -->
+<section class="max-w-5xl mx-auto px-6 py-20">
+  <h2 class="text-3xl font-playfair font-semibold">Frequently Asked Questions</h2>
+
+  <div class="mt-8 space-y-6 text-slate-300">
+
+    <details class="bg-[#0e162e] p-4 rounded-lg">
+      <summary class="font-semibold cursor-pointer">How do I listen to the full 8-hour track?</summary>
+      <p class="mt-2">After purchase you receive a download link instantly from Dodo Payments.</p>
+    </details>
+
+    <details class="bg-[#0e162e] p-4 rounded-lg">
+      <summary class="font-semibold cursor-pointer">Can I use this every night?</summary>
+      <p class="mt-2">Yes. These tracks are designed for nightly subconscious reinforcement.</p>
+    </details>
+
+    <details class="bg-[#0e162e] p-4 rounded-lg">
+      <summary class="font-semibold cursor-pointer">Is there a refund policy?</summary>
+      <p class="mt-2">Yes. 30-day no-questions refund through Dodo payments.</p>
+    </details>
+
+    <details class="bg-[#0e162e] p-4 rounded-lg">
+      <summary class="font-semibold cursor-pointer">Will new tracks be added?</summary>
+      <p class="mt-2">Yes — new affirmations are added daily.</p>
+    </details>
+
+  </div>
+
+</section>
+
+
+<!-- ========= FOOTER ========= -->
+<footer class="text-center text-slate-500 py-10 text-sm">
+  Twin Flame Affirmations © 2025 · All Rights Reserved
+</footer>
+
+
+
+<!-- ========= JS: LOAD PRODUCTS ========= -->
+<script>
+let products = [];
+
+async function loadProducts() {
+  const r = await fetch("products.json");
+  products = await r.json();
+
+  // set default hero sample
+  if (products[0]) {
+    document.getElementById("sample-src").src = products[0].sample_url;
+    document.getElementById("sample-player").load();
+    document.getElementById("hero-buy-btn").href = products[0].checkout_url;
+  }
+
+  render();
+}
+loadProducts();
+
+function render() {
+  const q = document.getElementById("search-box").value.toLowerCase();
+  const sort = document.getElementById("sort-select").value;
+
+  let list = products.filter(p =>
+    (p.title + p.description + p.tags.join(" ")).toLowerCase().includes(q)
+  );
+
+  if (sort === "pop") list.sort((a, b) => b.popularity - a.popularity);
+  if (sort === "new") list.sort((a, b) =>
+    new Date(b.published_at) - new Date(a.published_at)
+  );
+  if (sort === "az") list.sort((a, b) => a.title.localeCompare(b.title));
+
+  const grid = document.getElementById("product-grid");
+  grid.innerHTML = "";
+
+  for (const p of list) {
+    grid.innerHTML += `
+      <div class="bg-[#0e162e] rounded-xl shadow-lg p-4 flex flex-col">
+        <img src="${p.thumbnail}" loading="lazy"
+             class="rounded-lg h-48 w-full object-cover"/>
+
+        <div class="mt-3 font-semibold text-lg">${p.title}</div>
+
+        <div class="text-slate-400 text-sm mt-1">
+          ${p.tags.join(" • ")} · ${p.duration}
+        </div>
+
+        <div class="mt-auto flex justify-between items-center pt-4">
+          <div class="font-semibold text-[#4fd1c5]">$${p.price.toFixed(2)}</div>
+          <a href="${p.checkout_url}" target="_blank"
+             class="px-4 py-2 bg-[#4fd1c5] text-black rounded-lg font-semibold hover:bg-[#65e6d6] transition">
+            Buy
+          </a>
+        </div>
+      </div>
+    `;
+  }
+}
+
+document.getElementById("search-box").addEventListener("input", render);
+document.getElementById("sort-select").addEventListener("change", render);
+</script>
+
+</body>
+</html>
